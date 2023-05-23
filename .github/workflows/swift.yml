@@ -21,6 +21,7 @@ jobs:
           api_key: ${{ secrets.DD_API_KEY }}
           application_key: ${{ secrets.DD_APPLICATION_KEY }}
           libraryVersion: 2.3.2-beta.1
+          platform: macos
       env: 
           DD_TRACE_DEBUG: "1"     
           DD_SITE: datad0g.com
