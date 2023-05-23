@@ -22,7 +22,8 @@ jobs:
           application_key: ${{ secrets.DD_APPLICATION_KEY }}
           libraryVersion: 2.3.2-beta.1
       env: 
-          DD_TRACE_DEBUG: "1"      
+          DD_TRACE_DEBUG: "1"     
+          DD_SITE: datad0g.com
 #    - name: Setup tmate session
 #      uses: mxschmitt/action-tmate@v3
 
